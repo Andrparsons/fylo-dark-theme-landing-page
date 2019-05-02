@@ -1,0 +1,67 @@
+:root {
+  /* Primary Colours */
+  --intro-background-colour: hsl(217, 28%, 15%);
+  --main-background-colour: hsl(218, 28%, 13%);
+  --footer-background-colour: hsl(216, 53%, 9%);
+  --testimonial-background-colour: hsl(219, 30%, 18%);
+
+  /* Accent Colours */
+  --cyan: hsl(176, 68%, 64%);
+  --blue: hsl(198, 60%, 50%);
+
+  /* Neural Colours */
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: var(--white);
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--main-background-colour);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  font-family: "Raleway", sans-serif;
+  background-color: var(--intro-background-colour);
+  padding: 4rem 5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  margin-left: 3.8rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro {
+  background: no-repeat bottom url("../images/bg-curvy-desktop.svg")
+    var(--intro-background-colour);
+  background-size: 100%;
+}
+
+footer {
+  background-color: var(--footer-background-colour);
+}
