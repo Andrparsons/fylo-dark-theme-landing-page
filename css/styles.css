@@ -34,13 +34,6 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
-h1 {
-  font-size: 2.5em;
-  line-height: 4rem;
-  padding-top: 4rem;
-  padding-bottom: 2rem;
-}
-
 header {
   font-family: "Raleway", sans-serif;
   background-color: var(--intro-background-colour);
@@ -67,6 +60,13 @@ nav a {
 .intro {
   background-color: var(--intro-background-colour);
   text-align: center;
+}
+
+.intro h1 {
+  font-size: 2.5em;
+  line-height: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
 }
 
 .intro-background {
@@ -96,7 +96,26 @@ nav a {
   border-radius: 50px;
 }
 
-.splash-img {
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 8rem;
+  grid-row-gap: 5.5rem;
+  max-width: 900x;
+  margin: 0 auto;
+}
+
+.feature-item {
+  text-align: center;
+}
+
+.feature-item h3 {
+  padding-top: 1.5rem;
+  padding-bottom: 0.7rem;
+}
+
+.feature-item p {
+  font-size: 14px;
 }
 
 footer {
