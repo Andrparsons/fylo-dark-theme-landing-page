@@ -101,7 +101,7 @@ nav a {
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 8rem;
   grid-row-gap: 5.5rem;
-  max-width: 900x;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -116,6 +116,35 @@ nav a {
 
 .feature-item p {
   font-size: 14px;
+}
+
+.content {
+  display: flex;
+  padding: 7rem 7rem 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content img {
+  flex-shrink: 0;
+}
+
+.about {
+  max-width: 555px;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  padding-bottom: 1.3rem;
+  max-width: 30rem;
+}
+
+.content p {
+  padding-bottom: 1.2rem;
+}
+
+.content a {
+  color: var(--cyan);
 }
 
 footer {
