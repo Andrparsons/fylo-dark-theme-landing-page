@@ -147,6 +147,22 @@ nav a {
   color: var(--cyan);
 }
 
+.inline-icon {
+  display: inline-flex;
+  align-self: center;
+}
+
+.inline-icon img {
+  height: 1rem;
+  width: 1rem;
+  fill: currentColor;
+}
+
+.inline-icon.baseline img {
+  top: 0.125em;
+  position: relative;
+}
+
 footer {
   background-color: var(--footer-background-colour);
 }
