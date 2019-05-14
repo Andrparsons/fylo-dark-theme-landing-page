@@ -145,6 +145,8 @@ nav a {
 
 .content a {
   color: var(--cyan);
+  border-bottom: var(--cyan) 1px solid;
+  text-decoration: none;
 }
 
 .inline-icon {
