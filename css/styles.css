@@ -120,7 +120,7 @@ nav a {
 
 .content {
   display: flex;
-  padding: 7rem 7rem 0;
+  padding: 7rem 7rem 9rem;
   justify-content: space-between;
   align-items: center;
 }
@@ -147,6 +147,7 @@ nav a {
   color: var(--cyan);
   border-bottom: var(--cyan) 1px solid;
   text-decoration: none;
+  padding-bottom: 0.225rem;
 }
 
 .inline-icon {
@@ -161,8 +162,26 @@ nav a {
 }
 
 .inline-icon.baseline img {
-  top: 0.125em;
+  top: 0.225em;
   position: relative;
+}
+
+.testimonials {
+  background: no-repeat url("../images/bg-quotes.png") top left;
+  margin: 0 8rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2rem;
+}
+
+.card {
+  background-color: var(--testimonial-background-colour);
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.card p {
+  padding: 0.75rem 0 1.5rem 0;
 }
 
 footer {
