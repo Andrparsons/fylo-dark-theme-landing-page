@@ -168,20 +168,45 @@ nav a {
 
 .testimonials {
   background: no-repeat url("../images/bg-quotes.png") top left;
-  margin: 0 8rem;
+  margin: 0 8.8rem 0 8rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 2rem;
+  grid-column-gap: 2.5rem;
+  padding-top: 2rem;
+  padding-left: 0.5rem;
 }
 
 .card {
   background-color: var(--testimonial-background-colour);
-  padding: 2rem;
+  padding: 1.875rem 1.875rem 1.3rem;
   border-radius: 5px;
+  box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.2);
 }
 
 .card p {
   padding: 0.75rem 0 1.5rem 0;
+  font-size: 14px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 1.5rem;
+}
+
+.profile-info {
+  display: inline-block;
+}
+
+.profile-info h5 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.7rem;
+}
+
+.profile-info h6 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.5rem;
+  line-height: 1rem;
+  font-weight: normal;
 }
 
 footer {
