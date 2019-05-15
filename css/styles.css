@@ -176,13 +176,17 @@ nav a {
   grid-column-gap: 2.5rem;
   padding-top: 2rem;
   padding-left: 0.5rem;
+  padding-bottom: 12.5rem;
+}
+
+.card-shadow {
+  box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.2);
 }
 
 .card {
   background-color: var(--testimonial-background-colour);
   padding: 1.875rem 1.875rem 1.3rem;
   border-radius: 5px;
-  box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.2);
 }
 
 .card p {
@@ -213,6 +217,9 @@ nav a {
 
 .submit-email {
   background-color: var(--intro-background-colour);
+  max-width: 54rem;
+  margin: 0 auto;
+  text-align: center;
 }
 
 footer {
