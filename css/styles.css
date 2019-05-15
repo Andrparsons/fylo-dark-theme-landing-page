@@ -120,9 +120,11 @@ nav a {
 
 .content {
   display: flex;
-  padding: 7rem 7rem 9rem;
+  padding: 7rem 6.4rem 9rem;
   justify-content: space-between;
   align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .content img {
@@ -207,6 +209,10 @@ nav a {
   font-size: 0.5rem;
   line-height: 1rem;
   font-weight: normal;
+}
+
+.submit-email {
+  background-color: var(--intro-background-colour);
 }
 
 footer {
