@@ -63,7 +63,7 @@ nav a {
 }
 
 .intro h1 {
-  font-size: 2.5em;
+  font-size: 2.5rem;
   line-height: 4rem;
   padding-top: 4rem;
   padding-bottom: 2rem;
@@ -90,10 +90,13 @@ nav a {
 
 .btn {
   background: linear-gradient(0.25turn, var(--cyan), var(--blue));
-  padding: 1.2rem 6rem;
   border: none;
   font-size: 14px;
   border-radius: 50px;
+}
+
+.CTA {
+  padding: 1.2rem 6rem;
 }
 
 .features {
@@ -176,7 +179,7 @@ nav a {
   grid-column-gap: 2.5rem;
   padding-top: 2rem;
   padding-left: 0.5rem;
-  padding-bottom: 12.5rem;
+  padding-bottom: 5.5rem;
 }
 
 .card-shadow {
@@ -220,6 +223,44 @@ nav a {
   max-width: 54rem;
   margin: 0 auto;
   text-align: center;
+  padding: 3.2rem 4.5rem 2.5rem 4.5rem;
+  border-radius: 10px;
+  position: relative;
+  top: 7rem;
+}
+
+.submit-email h1 {
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.submit-email p {
+  font-size: 14px;
+  padding-bottom: 2.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.form-field {
+  display: flex;
+}
+
+.form-field input {
+  width: 100%;
+  outline: transparent;
+  border: transparent;
+  padding: 0.975rem 1rem 0.975rem 1rem;
+  border-radius: 40px;
+  color: #000;
+}
+
+.form-field input::placeholder {
+  color: gray;
+}
+
+.submit {
+  width: 17.5rem;
+  margin-left: 1.875rem;
 }
 
 footer {
