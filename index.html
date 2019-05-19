@@ -18,6 +18,14 @@
       rel="stylesheet"
     />
 
+    <!--import icons-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
     <title>
       Frontend Mentor | Fylo landing page with dark theme and features grid
     </title>
@@ -228,31 +236,54 @@
     <!-- Contact info -->
 
     <footer>
-      <img class="logo" src="./images/logo.svg" alt="fylo logo" />
-      <div class="column">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua
+      <div class="footer-container">
+        <img class="logo" src="./images/logo.svg" alt="fylo logo" />
+        <div class="inline-icon baseline">
+          <img src="./images/icon-location.svg" />
+        </div>
+        <div class="location">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua
+          </p>
+        </div>
+        <div class="column contact">
+          <ul>
+            <li>
+              <div class="inline-icon baseline">
+                <img src="./images/icon-phone.svg" />
+              </div>
+              +1-543-123-4567
+            </li>
+            <li>
+              <div class="inline-icon baseline">
+                <img src="./images/icon-email.svg" />
+              </div>
+              example@fylo.com
+            </li>
+          </ul>
+        </div>
+        <div class="column links-1">
+          <ul>
+            <li>About Us</li>
+            <li>Jobs</li>
+            <li>Press</li>
+            <li>Blog</li>
+          </ul>
+        </div>
+        <div class="column links-2">
+          <ul>
+            <li>Contact Us</li>
+            <li>Terms</li>
+            <li>Privacy</li>
+          </ul>
+        </div>
+        <div class="column social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
       </div>
-      <div class="column">
-        <ul>
-          <li>+1-543-123-4567</li>
-          <li>example@fylo.com</li>
-        </ul>
-      </div>
-
-      <div class="column">
-        <ul>
-          <li>About Us</li>
-          <li>Jobs</li>
-          <li>Press</li>
-          <li>Blog</li>
-        </ul>
-      </div>
-      <ul>
-        <li>Contact Us</li>
-        <li>Terms</li>
-        <li>Privacy</li>
-      </ul>
     </footer>
   </body>
 </html>
