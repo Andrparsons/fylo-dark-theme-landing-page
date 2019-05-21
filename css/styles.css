@@ -34,6 +34,11 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.intro {
+  background-color: var(--intro-background-colour);
+  text-align: center;
+}
+
 header {
   font-family: "Raleway", sans-serif;
   background-color: var(--intro-background-colour);
@@ -47,8 +52,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  margin-left: 3.8rem;
-  font-size: 14px;
+  margin-left: 3.6rem;
 }
 
 .navbar {
@@ -57,31 +61,33 @@ nav a {
   align-items: center;
 }
 
-.intro {
-  background-color: var(--intro-background-colour);
+.mobile-curve {
+  display: none;
+}
+
+.call-to-action {
   text-align: center;
 }
 
-.intro h1 {
+.call-to-action h1 {
   font-size: 2.5rem;
   line-height: 4rem;
-  padding-top: 4rem;
-  padding-bottom: 2rem;
+  padding: 4rem 0 2rem;
 }
 
-.intro-background {
+.cta-background {
   background: no-repeat bottom url("../images/bg-curvy-desktop.svg")
     var(--intro-background-colour);
   background-size: 100%;
 }
 
-.intro-content {
+.cta-content {
   max-width: 720px;
   margin: 0 auto;
   padding-bottom: 12.2rem;
 }
 
-.intro-text {
+.cta-text {
   font-size: 20px;
   max-width: 580px;
   margin: 0 auto;
@@ -95,7 +101,7 @@ nav a {
   border-radius: 50px;
 }
 
-.CTA {
+.cta-btn {
   padding: 1.2rem 6rem;
 }
 
@@ -289,7 +295,7 @@ footer li {
   padding-right: 1.75rem;
 }
 
-.logo {
+.footer-container .logo {
   padding-bottom: 2rem;
   grid-column: 1/8;
 }
@@ -322,4 +328,57 @@ footer li {
   margin-left: 0.75rem;
   outline: transparent;
   font-size: 0.9rem;
+}
+
+/* Phones */
+
+@media screen and (max-width: 599px) {
+  header {
+    padding: 1.5rem 1.25rem 3.5rem;
+  }
+
+  nav a {
+    margin-left: 1.5rem;
+    font-size: 12px;
+  }
+  .logo {
+    max-width: 5rem;
+  }
+
+  .splash-img {
+    width: 100%;
+    padding: 0 2.25rem;
+    z-index: 2;
+    position: relative;
+  }
+
+  .cta-background {
+    background: none;
+  }
+
+  .mobile-curve {
+    display: block;
+    margin-top: -3rem;
+  }
+
+  .mobile-curve img {
+    width: 100%;
+    display: block;
+  }
+
+  .call-to-action h1 {
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    padding: 1.5rem 1.25rem 1rem;
+  }
+
+  .cta-content {
+    margin-top: -6rem;
+  }
+
+  .cta-text {
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 0 2.25rem 2.25rem;
+  }
 }
