@@ -374,11 +374,30 @@ footer li {
 
   .cta-content {
     margin-top: -6rem;
+    padding-bottom: 8rem;
   }
 
   .cta-text {
     font-size: 14px;
     margin: 0 auto;
     padding: 0 2.25rem 2.25rem;
+  }
+
+  .cta-btn {
+    padding: 1rem 5rem;
+  }
+
+  .features {
+    display: block;
+    padding: 1rem 2rem 3rem;
+  }
+
+  .feature-item {
+    padding-bottom: 5.5rem;
+  }
+
+  .feature-item img {
+    max-width: 4.1rem;
+    max-height: 4.2rem;
   }
 }
