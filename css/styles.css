@@ -13,6 +13,7 @@
   --white: hsl(0, 0%, 100%);
 }
 
+/* sitewide settings */
 * {
   padding: 0;
   margin: 0;
@@ -33,6 +34,8 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
+
+/* Navigation & Intro */
 
 .intro {
   background-color: var(--intro-background-colour);
@@ -64,6 +67,8 @@ nav a {
 .mobile-curve {
   display: none;
 }
+
+/* Call to Action */
 
 .call-to-action {
   text-align: center;
@@ -105,6 +110,8 @@ nav a {
   padding: 1.2rem 6rem;
 }
 
+/* Features */
+
 .features {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -126,6 +133,8 @@ nav a {
 .feature-item p {
   font-size: 14px;
 }
+
+/* Content */
 
 .content {
   display: flex;
@@ -175,6 +184,8 @@ nav a {
   position: relative;
 }
 
+/* Testimonials  */
+
 .testimonials {
   background: no-repeat url("../images/bg-quotes.png") top left;
   margin: 0 8.8rem 0 8rem;
@@ -222,6 +233,8 @@ nav a {
   font-weight: normal;
 }
 
+/* Email */
+
 .submit-email {
   background-color: var(--intro-background-colour);
   max-width: 54rem;
@@ -266,6 +279,8 @@ nav a {
   width: 17.5rem;
   margin-left: 1.875rem;
 }
+
+/* Contact info / footer */
 
 footer {
   background-color: var(--footer-background-colour);
@@ -333,6 +348,7 @@ footer li {
 /* Phones */
 
 @media screen and (max-width: 599px) {
+  /* Navigation & Intro */
   header {
     padding: 1.5rem 1.25rem 3.5rem;
   }
@@ -366,6 +382,8 @@ footer li {
     display: block;
   }
 
+  /* Call to Action */
+
   .call-to-action h1 {
     font-size: 1.5rem;
     line-height: 2.3rem;
@@ -387,9 +405,11 @@ footer li {
     padding: 1rem 5rem;
   }
 
+  /* Features */
+
   .features {
     display: block;
-    padding: 1rem 2rem 3rem;
+    padding: 1rem 1.5rem 0;
   }
 
   .feature-item {
@@ -399,5 +419,29 @@ footer li {
   .feature-item img {
     max-width: 4.1rem;
     max-height: 4.2rem;
+  }
+
+  /* Content */
+
+  .content {
+    display: block;
+    padding: 5rem 1.75em 9rem;
+  }
+
+  .content img {
+    width: 100%;
+  }
+
+  .content h1 {
+    font-size: 1.1rem;
+  }
+
+  .content p {
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
+
+  .about {
+    padding-top: 2.75rem;
   }
 }
