@@ -192,9 +192,7 @@ nav a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 2.5rem;
-  padding-top: 2rem;
-  padding-left: 0.5rem;
-  padding-bottom: 5.5rem;
+  padding: 2rem 0 5.5rem 0.5rem;
 }
 
 .card-shadow {
@@ -425,7 +423,7 @@ footer li {
 
   .content {
     display: block;
-    padding: 5rem 1.75em 9rem;
+    padding: 5rem 1.75em 10.5rem;
   }
 
   .content img {
@@ -441,7 +439,31 @@ footer li {
     line-height: 1.6;
   }
 
+  .content a {
+    font-size: 0.8rem;
+  }
+
   .about {
     padding-top: 2.75rem;
+  }
+
+  /* Testimonials */
+
+  .testimonials {
+    background: no-repeat url("../images/bg-quotes.png") top left 2%;
+    display: block;
+    margin: 0 3rem;
+    padding: 1rem 0 5.5rem 0;
+    background-size: 1.5rem;
+  }
+  .card {
+    padding: 0.75rem 1.2rem 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .card p {
+    padding: 0.75rem 0 1rem 0;
+    font-size: 0.61rem;
+    line-height: 1.8;
   }
 }
