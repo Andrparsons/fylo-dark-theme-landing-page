@@ -103,7 +103,7 @@ nav a {
   background: linear-gradient(0.25turn, var(--cyan), var(--blue));
   border: none;
   font-size: 14px;
-  border-radius: 50px;
+  border-radius: 2.5rem;
 }
 
 .cta-btn {
@@ -238,7 +238,7 @@ nav a {
   max-width: 54rem;
   margin: 0 auto;
   text-align: center;
-  padding: 3.2rem 4.5rem 2.5rem 4.5rem;
+  padding: 3.2rem 4.5rem 2.5rem;
   border-radius: 10px;
   position: relative;
   top: 7rem;
@@ -251,9 +251,7 @@ nav a {
 
 .submit-email p {
   font-size: 14px;
-  padding-bottom: 2.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 0 1rem 2.5rem;
 }
 
 .form-field {
@@ -264,8 +262,8 @@ nav a {
   width: 100%;
   outline: transparent;
   border: transparent;
-  padding: 0.975rem 1rem 0.975rem 1rem;
-  border-radius: 40px;
+  padding: 0.975rem 1rem;
+  border-radius: 2.5rem;
   color: #000;
 }
 
@@ -303,9 +301,13 @@ footer li {
 
 .footer-container .inline-icon {
   display: inline-flex;
-  grid-column: 1;
   align-self: baseline;
+  align-items: start;
+}
+
+.footer-container .inline-icon img {
   padding-right: 1.75rem;
+  flex-shrink: 0;
 }
 
 .footer-container .logo {
@@ -453,7 +455,7 @@ footer li {
     background: no-repeat url("../images/bg-quotes.png") top left 2%;
     display: block;
     margin: 0 3rem;
-    padding: 1rem 0 5.5rem 0;
+    padding: 1rem 0 0 0;
     background-size: 1.5rem;
   }
   .card {
@@ -465,5 +467,62 @@ footer li {
     padding: 0.75rem 0 1rem 0;
     font-size: 0.61rem;
     line-height: 1.8;
+  }
+
+  /* Email */
+
+  .submit-email {
+    margin: 0 1.25rem;
+    padding: 2.7rem 1.5rem 2.2rem;
+    top: 10rem;
+  }
+
+  .submit-email h1 {
+    font-size: 1.1rem;
+    padding-bottom: 1.1rem;
+  }
+
+  .submit-email p {
+    padding: 0 0 2.1rem;
+  }
+
+  .form-field {
+    flex-direction: column;
+  }
+
+  .submit {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .form-field input {
+    margin-bottom: 1.5rem;
+  }
+
+  .submit {
+    padding: 0.975rem 1rem;
+  }
+
+  .btn {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  /* Contact info / footer */
+
+  footer {
+    padding: 14.5rem 2rem 2.5rem;
+  }
+
+  .footer-container {
+    display: block;
+  }
+
+  .footer-container .logo {
+    max-width: 100%;
+  }
+
+  .location {
+    padding: 0;
   }
 }
